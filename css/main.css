@@ -1639,7 +1639,6 @@ select {
 	margin: 0 auto;
 	margin-top: 8px;
 	opacity: 0;
-	transition: all 0.3s;
 }
 .menu-dropdown::after {
 	position: absolute;
