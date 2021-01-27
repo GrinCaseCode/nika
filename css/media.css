@@ -8,6 +8,9 @@
     font-size: 20px;
     line-height: 33px;
     }
+    .wrapper_page .header .phone-main {
+        font-size: 16px;
+    }
 }
 @media only screen and (max-width : 1380px) {
 .partners-wrap .slick-prev {
@@ -33,6 +36,12 @@
 }
 .partners-wrap .slick-next {
     right: 0;
+}
+.wrapper_page .header__right .btn-social {
+    margin-left: 5px;
+}
+.wrapper_page .right_head {
+    padding-left: 0px;
 }
 }
 /* Large Devices, Wide Screens */
@@ -145,6 +154,15 @@
     .footer {
     	font-size: 13px;
     }
+    .wrapper_page .item-billbord {
+    font-size: 13px;
+}
+.wrapper_page .header__right .link-block {
+    margin-right: 22px;
+}
+.wrapper_page .header .phone-main {
+    font-size: 13px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -287,6 +305,21 @@
 }
 .menu-dropdown {
     margin-top: -9px;
+}
+.wrapper_page .header .phone-main {
+    font-size: 15px;
+}
+.wrapper_page .logo-wrap {
+    display: inline-flex;
+}
+.wrapper_page .logo-descr {
+    margin-left: 15px;
+}
+.wrapper_page {
+    padding-top: 144px;
+}
+.articles_page .item-article_big + .item-article_big {
+    left: 0;
 }
 }
 
@@ -565,6 +598,34 @@ body {
 .item-billbord__icon::before {
     margin-top: 61px;
 }
+.wrapper_page {
+    padding-top: 95px;
+}
+.pagination ul {
+    width: 100%;
+}
+.articles_page .item-article {
+    padding-right: 20px;
+}
+.col_lr {
+    padding: 0 15px;
+}
+.title-middle {
+    font-size: 17px;
+    }
+    .article .title-middle {
+    padding-top: 8px;
+    padding-bottom: 15px;
+}
+.text-main p, .text-main li {
+    margin-bottom: 15px;
+}
+.list-brief li {
+    margin-bottom: 15px;
+}
+.title-middle_icon::before {
+    top: 15px;
+}
 }
 @media only screen and (max-width : 575px) {
 .footer__bottom .row > div {
@@ -787,6 +848,36 @@ body {
     }
     .menu-dropdown {
         line-height: 22px;
+    }
+    .wrapper_page .logo-descr {
+    font-size: 10px;
+    margin-left: 8px;
+    max-width: 110px;
+}
+.breacumbs {
+    padding-bottom: 19px;
+    }
+    .wrapper_page {
+    padding-top: 83px;
+}
+.article__image {
+    margin-bottom: 15px;
+}
+.article .title-section {
+    padding-bottom: 20px;
+}
+.title-brief {
+    margin-bottom: 15px;
+}
+.text-main p, .text-main li {
+    font-size: 13px;
+}
+.blockquote {
+    padding: 15px;
+    padding-bottom: 5px;
+    }
+    .article {
+        padding-bottom: 20px;
     }
 }
 
