@@ -1264,7 +1264,7 @@ select {
 	justify-content: space-between;
 }
 .item-article {
-	padding: 0 40px;
+	padding: 0 35px;
 	padding-right: 10px;
 	padding-top: 70px;
 	width: 35%;
@@ -1285,6 +1285,7 @@ select {
 	margin-bottom: 25px;
 	font-weight: 700;
 	color: #1c4b6e;
+	min-height: 77px;
 	display: block;
 }
 .item-article__date {

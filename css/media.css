@@ -321,6 +321,9 @@
 .articles_page .item-article_big + .item-article_big {
     left: 0;
 }
+.item-article__name {
+    min-height: auto;
+}
 }
 
 /* Small Devices, Tablets */
