@@ -1,6 +1,26 @@
 $(document).ready(function() {
 
 
+/*animate*/
+	new WOW().init();
+
+//прилипающие меню
+var $menu = $(".header");
+$(window).scroll(function(){
+  if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
+    $menu.removeClass("default").addClass("fixed");
+  } else if($(this).scrollTop() <= 0 && $menu.hasClass("fixed")) {
+    $menu.removeClass("fixed").addClass("default");
+  }
+  
+});
+
+if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
+    $menu.removeClass("default").addClass("fixed");
+  } else if($(this).scrollTop() <= 0 && $menu.hasClass("fixed")) {
+    $menu.removeClass("fixed").addClass("default");
+  }
+
 $(".input-phone").mask("+7 (999) 999-99-99");
 
 	//плавный скролл
@@ -22,7 +42,16 @@ $has_child = $(".header__top li").has("ul");
 
 
 
-		$(".header__top li a").click(function(e) {
+		
+		
+	});
+
+	
+
+	{
+    if ($(window).width() < 768) { 
+
+     $(".header__top li a").click(function(e) {
 			if ($(this).parent().hasClass("has_child")) {
 				e.preventDefault();
 
@@ -36,8 +65,10 @@ $has_child = $(".header__top li").has("ul");
 				$(".sandwich").removeClass("active");
 			}
 		});
-		
-	});
+
+
+    }
+  }
 
 	/*высота блока по экрану*/
 	function heightDetect() {

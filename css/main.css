@@ -1785,7 +1785,7 @@ select {
 	padding-top: 190px;
 }
 .wrapper_page .header {
-	padding-bottom: 10px;
+	padding-bottom: 0px;
 	border-bottom: 1px #dce3ed solid;
 }
 .wrapper_page .item-billbord {
@@ -1965,4 +1965,24 @@ select {
 }
 .title-middle_hidicon::before {
 	opacity: 0;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	transition: all 0.3s;
+	z-index: 800;
+}
+.header.fixed {
+	background-color: #fff;
+	box-shadow: 0 0 10px #ccc;
+}
+.header.fixed .header__bottom {
+
+}
+.header__bottom {
+	padding-bottom: 16px;
+	transition: all 0.3s;
 }

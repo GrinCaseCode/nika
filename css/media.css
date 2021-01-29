@@ -379,6 +379,7 @@
 	position: fixed;
 	top: 0;
 	z-index: 1000;
+    padding-top: 0;
 	background-color: #fff;
 }
 .header__bottom {
@@ -628,6 +629,9 @@ body {
 }
 .title-middle_icon::before {
     top: 15px;
+}
+.wrapper_page .header {
+    padding-bottom: 0;
 }
 }
 @media only screen and (max-width : 575px) {
