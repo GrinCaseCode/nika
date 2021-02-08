@@ -1792,6 +1792,7 @@ select {
 	margin: 0;
 }
 .articles_page {
+	padding-top: 25px;
 	background-color: #fff;
 }
 .articles_page .item-article_big {
@@ -1985,4 +1986,365 @@ select {
 .header__bottom {
 	padding-bottom: 16px;
 	transition: all 0.3s;
+}
+
+/*new*/
+.about {
+	padding-top: 25px;
+	padding-bottom: 30px;
+}
+.tabs-about {
+	margin: 0 -7px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.tabs-about li {
+	padding: 0 7px;
+}
+.tabs-about li a {
+	height: 59px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 0 11px;
+	min-width: 165px;
+	font-weight: 700;
+	color: #1c4b6e;
+	background-color: #dbe2eb;
+	border-radius: 4px;
+	transition: all 0.3s;
+}
+.tabs-about li a:hover,
+.tabs-about li.active a {
+	color: #fff;
+	background-color: #1c4b6e;
+}
+.row_team .item-team__image {
+	height: 330px;
+}
+.row_team .item-team__content {
+	padding-top: 20px;
+	padding-left: 0;
+}
+.row_team > div {
+	margin-bottom: 50px;
+}
+.tab-container-about {
+	padding-top: 25px;
+}
+.tab-pane-about {
+display: none;
+}
+.tab-pane-about:nth-child(1) {
+	display: block;
+}
+.text-page {
+	line-height: 26px;
+	font-weight: 500;
+}	
+.text-page p {
+	margin-bottom: 20px;
+}
+.about .title-section {
+	padding-bottom: 30px;
+}
+.about__image {
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.about__image img {
+	max-width: 600px;
+}
+.z_2 {
+	z-index: 2;
+}
+.item-achievement {
+		font-family: "Geometria";
+	font-weight: 800;
+}
+.item-achievement__descr {
+	color: #1c4b6e;
+	text-transform: uppercase;
+}
+.item-achievement__title {
+	font-size: 18px;
+	padding-bottom: 15px;
+color: #617385;
+text-transform: uppercase;
+}
+.item-achievement__title strong {
+	font-size: 30px;
+}
+.row_achievement > div {
+	margin-bottom: 40px;
+}
+.row_achievement {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.item-advantage_image img {
+		height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 15px;
+	font-family: 'object-fit: cover;';
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.item-advantage_image {
+	height: calc(100% - 30px);
+	padding: 0 !important;
+}
+.links-article {
+	font-weight: 500;
+	columns: 2;
+}
+.links-article li {
+	padding-right: 50px;
+	margin-bottom: 15px;
+	padding-left: 15px;
+	position: relative;
+}
+.links-article li a {
+	color: #1c4b6e;
+	border-bottom: 1px solid transparent;
+	transition: all 0.3s;
+}
+.links-article li a:hover {
+	border-color: #1c4b6e;
+}
+.links-article li::before {
+	position: absolute;
+	display: block;
+	content: "•";
+	top: 0px;
+	left: 0;
+}
+.title-min {
+	font-size: 20px;
+	line-height: 26px;
+	padding-top: 20px;
+	padding-bottom: 18px;
+	color: #1c4b6e;
+	font-family: 'Geometria';
+	font-weight: 800;
+}
+.text-article {
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 500;
+	color: #333;
+	font-family: 'Geometria';
+}
+.text-article p {
+	margin-bottom: 20px;
+}
+.text-article strong {
+	font-weight: 700;
+}
+.text-article p a {
+	color: #333;
+}
+.text-article li::before {
+	content: "•";
+	margin-right: 5px;
+}
+.link-doc {
+	font-size: 14px;
+	color: #1c4b6e;
+	padding-left: 42px;
+	font-weight: 500;
+	display: inline-block;
+	position: relative;
+}
+.link-doc::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 23px;
+	height: 23px;
+	background-image: url(../img/ic_doc.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% auto;
+	top: 0;
+	left: 0;
+}
+.link-doc span {
+	border-bottom: 1px solid transparent;
+	transition: all 0.3s;
+}
+.link-doc:hover span {
+	border-color: #1c4b6e;
+}
+.wrap-doc {
+	margin-bottom: 20px;
+	max-width: 635px;
+	margin-top: 5px;
+}
+.item-review {
+	color: #333;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 600;
+	padding: 30px;
+	margin-bottom: 25px;
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: 0 9px 20px rgba(97, 115, 133, 0.3);
+}
+.item-review__name {
+	font-size: 20px;
+	padding-bottom: 7px;
+	color: #1c4b6e;
+	font-weight: 700;
+}
+.item-review__descr {
+	font-weight: 500;
+	font-family: 'Geometria';
+}
+.item-review p {
+	margin-bottom: 20px;
+	text-indent: 20px;
+}
+.item-review p:last-child {
+	margin-bottom: 0;
+}
+.item-review__head {
+	margin-bottom: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.link-review {
+	font-size: 14px;
+	font-weight: 500;
+	padding-right: 40px;
+		font-family: 'Geometria';
+	color: #1c4b6e;
+	position: relative;
+}
+.link-review span {
+	border-bottom: 1px #1c4b6e solid;
+	transition: all 0.3s;
+}
+.link-review:hover span {
+	border-color:transparent;
+}
+.link-review::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 23px;
+	height: 23px;
+	background-image: url(../img/ic_doc.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% auto;
+	top: 0;
+	right: 0;
+}
+.about .pagination {
+	padding-top: 8px;
+	padding-bottom: 0;
+}
+.item-vacancy {
+		margin-bottom: 25px;
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: 0 9px 20px rgba(97, 115, 133, 0.3);
+}
+.item-vacancy__head {
+	font-size: 20px;
+	font-weight: 700;
+	padding: 29px 35px;
+	padding-right: 15px;
+	cursor: pointer;
+	color: #1c4b6e;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.item-vacancy__icon {
+	font-size: 22px;
+}
+.item-vacancy__icon i {
+	transition: all 0.3s;
+}
+.item-vacancy.active .item-vacancy__icon i {
+	transform: rotate(45deg);
+}
+.item-vacancy__content {
+	padding: 40px;
+	padding-top: 0;
+	font-size: 14px;
+	line-height: 21px;
+	color: #333;
+	font-weight: 500;
+	display: none;
+}
+.item-vacancy__title {
+	font-size: 16px;
+	padding-top: 8px;
+	padding-bottom: 15px;
+	font-weight: 700;
+	color: #1c4b6e;
+	font-family: 'Geometria';
+}
+.item-vacancy__title:first-of-type {
+	padding-top: 0;
+}
+.item-vacancy__content p {
+	margin-bottom: 20px;
+}
+.item-vacancy .btn-main {
+	font-size: 14px;
+}
+.item-vacancy__bottom {
+	padding-top: 15px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.link-attach {
+	font-size: 14px;
+	font-weight: 500;
+		font-family: 'Geometria';
+	color: #1c4b6e;
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+}
+.link-attach span {
+	border-bottom: 1px #1c4b6e solid;
+	transition: all 0.3s;
+}
+.link-attach:hover span {
+	border-color:transparent;
+}
+.link-attach i {
+	font-size: 20px;
+	margin-right: 12px;
+}
+.item-vacancy__bottom .btn-main {
+	margin-right: 55px;
+}
+
+.portfolio-page {
+	background-color: #f3f4f5;
+}
+.portfolio-page .title-section {
+	text-align: center;
+	margin: 0;
+}
+.wrapper_page {
+    padding-top: 171px;
+}
+.breacumbs {
+	padding-top: 20px;
 }

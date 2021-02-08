@@ -24,7 +24,9 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 $(".input-phone").mask("+7 (999) 999-99-99");
 
 	//плавный скролл
-	$(".navigat li a").mPageScroll2id();
+	$(".links-article li a").mPageScroll2id({
+		offset: 150
+	});
 
 
 	//кнопка sandwich
@@ -67,8 +69,29 @@ $has_child = $(".header__top li").has("ul");
 		});
 
 
+$(".title-footer").click(function() {
+		$(this).toggleClass("active");
+		$(this).siblings(".content-footer").slideToggle(200);
+		
+	});
+
     }
   }
+
+
+
+$(".item-vacancy__head").click(function() {
+		$(this).parent().toggleClass("active");
+		$(this).siblings(".item-vacancy__content").slideToggle(200);
+		
+	});
+
+$(".item-question__head").click(function() {
+		$(this).parent().toggleClass("active");
+		$(this).siblings(".item-question__content").slideToggle(200);
+		
+	});
+
 
 	/*высота блока по экрану*/
 	function heightDetect() {
@@ -80,11 +103,7 @@ $has_child = $(".header__top li").has("ul");
 	});
 
 
-	$(".title-footer").click(function() {
-		$(this).toggleClass("active");
-		$(this).siblings(".content-footer").slideToggle(200);
-		
-	});
+	
 
 
 
@@ -103,6 +122,25 @@ $has_child = $(".header__top li").has("ul");
 			breakpoint: 768,
 			settings: {
 				arrows: false,
+			}
+		}
+		]
+	});
+
+	$('.slider-portfolio-image').slick({
+		arrows: true,
+		dots: false,
+		infinite: true,
+		slidesToShow:1,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		slidesToScroll: 1,
+		responsive: [
+		{
+			breakpoint: 768,
+			settings: {
+				arrows: false,
+				dots: true,
 			}
 		}
 		]
@@ -158,6 +196,38 @@ $has_child = $(".header__top li").has("ul");
         if(dest2 !== undefined && dest2 !== '') { 
           $('html').animate({ 
             scrollTop: $(dest2).offset().top - 50
+        }, 500 // скорость прокрутки
+        );
+        }
+        return false;
+      });
+
+
+    }
+  }
+
+  /*tabs*/
+$('.tabs-about li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(this).parent().parent().siblings(".tab-container-about").find(".tab-pane-about").fadeOut(0);
+		var selectTab3 = $(this).attr("href");
+		$(selectTab3).fadeIn(100);
+	});
+
+
+  {
+    if ($(window).width() < 768) { 
+
+      /*scroll to tabs*/
+
+      $('.tabs-about a').on( 'click', function(){ 
+        var el3 = $(this);
+        var dest3 = el3.attr('href'); 
+        if(dest3 !== undefined && dest3 !== '') { 
+          $('html').animate({ 
+            scrollTop: $(dest3).offset().top - 80
         }, 500 // скорость прокрутки
         );
         }
