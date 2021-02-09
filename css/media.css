@@ -1165,6 +1165,8 @@ body {
 }
 .item-sertificat {
     max-width: 140px;
+    display: block;
+    margin: 0 auto;
 }
 .item-sertificat__image {
     height: 215px;
