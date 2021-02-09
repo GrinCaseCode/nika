@@ -2519,3 +2519,38 @@ transition: all 0.3s;
 	height: 60px;
 	font-size: 14px;
 }
+.sertificats {
+	padding-top: 30px;
+}
+.sertificats .title-section {
+	text-align: center;
+	padding-bottom: 25px;
+}
+.item-sertificat {
+	font-weight: 700;
+	color: #1c4b6e;
+	line-height: 21px;
+	display: inline-block;
+	max-width: 305px;
+	font-family: 'Geometria';
+}
+.item-sertificat__image {
+	height: 460px;
+	margin-bottom: 28px;
+	border-radius: 4px;
+	padding: 10px;
+	display: block;
+		box-shadow: 0 13px 20px rgba(97, 115, 133, 0.3);
+}
+.item-sertificat__image  img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	font-family: 'object-fit: cover;';
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.row_sertificats > div {
+	margin-bottom: 55px;
+}  

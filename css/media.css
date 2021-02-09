@@ -16,6 +16,7 @@
     height: 410px;
 }
 }
+
 @media only screen and (max-width : 1380px) {
 .partners-wrap .slick-prev {
     left: -55px;
@@ -24,6 +25,8 @@
     right: -55px;
 }
 }
+
+
 @media only screen and (max-width : 1300px) {
 .title-big {
     font-size: 30px;
@@ -52,6 +55,8 @@
     height: 361px;
 }
 }
+
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 .header .container_big {
@@ -190,9 +195,14 @@
     padding-left: 70px;
     padding-right: 70px;
 }
-
+.item-sertificat__image {
+    height: 285px;
+    margin-bottom: 20px;
 }
-
+.row_sertificats > div {
+    margin-bottom: 30px;
+}
+}
 
 
 /* Medium Devices, Desktops */
