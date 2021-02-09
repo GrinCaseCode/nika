@@ -2433,3 +2433,89 @@ text-transform: uppercase;
 .portfolio-page {
 	padding-bottom: 40px;
 }
+.questions .title-section {
+	text-align: center;
+}
+.questions {
+	padding-top: 30px;
+	padding-bottom: 45px;
+}
+.item-question__head {
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+	transition: all 0.3s;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 29px 35px;
+    padding-right: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s;
+}
+.item-question {
+	border-radius: 6px;
+	background-color: #1c4b6e;
+	margin-top: 25px;
+    border-radius: 5px;
+box-shadow: 0 9px 20px rgb(97 115 133 / 30%);
+transition: all 0.3s;
+}
+.item-question__icon {
+    font-size: 22px;
+}
+.item-question__icon i {
+    transition: all 0.3s;
+}
+.item-question.active .item-question__icon i {
+    transform: rotate(45deg);
+}
+.item-question.active {
+	background-color: #fff;
+	color: #333;
+}
+.item-question.active .item-question__head {
+	color: #1c4b6e;
+}
+.item-question__content {
+    padding: 40px;
+    padding-top: 0;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333;
+    font-weight: 500;
+    display: none;
+}
+.ask-form {
+	margin-top: 38px;
+	padding: 30px 230px;
+	color: #fff;
+	background-color: #576779;
+}
+.ask-form__title {
+	font-size: 24px;
+	padding-bottom: 28px;
+	font-weight: 700;
+	font-family: 'Geometria';
+	text-align: center;
+}
+.item-form textarea {
+	height: 127px;
+	padding-top: 18px;
+	resize: none;
+}
+.item-form__icon {
+	height: 57px;
+}
+.ask-form__button {
+	padding-top: 15px;
+	text-align: center;
+}
+.ask-form .btn-main {
+	width: 250px;
+	max-width: 100%;
+	height: 60px;
+	font-size: 14px;
+}
