@@ -2687,3 +2687,13 @@ font-family: 'Geometria';
 	font-size: 14px;
 	width: 100%;
 }
+.header__right .link-block i,
+.phone-main i {
+	display: none;
+}
+.item-billbord__name {
+	color: inherit;
+}
+.menu-mob {
+	display: none;
+}
