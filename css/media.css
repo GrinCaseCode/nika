@@ -1000,6 +1000,7 @@ body {
 .slider-billbord__descr {
     font-size: 12px;
     line-height: 18px;
+    max-width: 171px;
 }
 .link-block {
     font-size: 12px;
