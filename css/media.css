@@ -469,6 +469,9 @@
     .header__bottom .hidden_tablet .header__location {
         display: none;
     }
+    .menu-dropdown {
+        display: none;
+    }
 }
 
 
