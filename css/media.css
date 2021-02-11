@@ -916,20 +916,23 @@ body {
 .header__right {
     display: block;
 }
-.header__right .phone-main,
+.header__right .link-block,
 .header__right .btn-social {
     display: none;
 }
-.header__right .link-block {
+.menu-mob  .link-block {
+    margin-top: 15px;
+}
+.header__right .phone-main {
     margin-right: 15px;
-    font-size: 0;
+    font-size: 0 !important;
     border: none;
         color: #1c4b6e;
 }
 .header__right br {
     display: none;
 }
-.header__right .link-block i {
+.header__right .phone-main i {
     font-size: 20px;
     display: inline-block;
 }
@@ -1006,10 +1009,10 @@ body {
     font-size: 12px;
 }
 .slider-billbord img {
-    max-width: 127px;
+    max-width: 127px; 
 }
 .slider-billbord__item .link-block {
-	right: 5px;
+	right: 5px; 
 }
 .icon-video {
 	font-size: 17px;
