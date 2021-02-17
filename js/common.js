@@ -41,10 +41,6 @@ $has_child = $(".header__top li").has("ul");
 		}
 
 		$has_child.addClass("has_child");
-
-
-
-		
 		
 	});
 
@@ -101,9 +97,6 @@ $(".item-question__head").click(function() {
 	$(window).resize(function() {
 		heightDetect();
 	});
-
-
-	
 
 
 
@@ -252,6 +245,27 @@ $('.tabs-about li a').click(function(event) {
 			settings: {
 				arrows: false,
 				dots: true
+			}
+		}
+		]
+	});
+
+	$('.partners-wrap-education').slick({
+		arrows: true,
+		dots: false,
+		infinite: false,
+		rows: 2,
+		slidesToShow: 5,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		slidesToScroll: 1,
+		responsive: [
+		{
+			breakpoint: 768,
+			settings: {
+				arrows: false,
+				dots: true,
+				slidesToShow: 4,
 			}
 		}
 		]
