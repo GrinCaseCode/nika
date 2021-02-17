@@ -188,7 +188,7 @@ $(".item-question__head").click(function() {
         var dest2 = el2.attr('href'); 
         if(dest2 !== undefined && dest2 !== '') { 
           $('html').animate({ 
-            scrollTop: $(dest2).offset().top - 50
+            scrollTop: $(dest2).offset().top - 80
         }, 500 // скорость прокрутки
         );
         }
