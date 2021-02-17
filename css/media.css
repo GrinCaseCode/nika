@@ -1774,6 +1774,10 @@ body {
 .sertificats-education .item-sertificat {
     max-width: 140px;
 }
+.branches-education .tabs li {
+    flex: none;
+    width: 50%;
+}
 }
 
 
