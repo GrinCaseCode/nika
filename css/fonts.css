@@ -86,3 +86,14 @@
 	font-weight: 900;
 	font-style: normal;
 }
+
+
+@font-face {
+	font-family: 'BukvarnayaBold';
+	src: url('../fonts/BukvarnayaBold.eot');
+	src: url('../fonts/BukvarnayaBold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/BukvarnayaBold.woff') format('woff'),
+	url('../fonts/BukvarnayaBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
