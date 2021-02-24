@@ -157,6 +157,48 @@ $(".item-question__head").click(function() {
 		$(selectTab2).addClass("active");
 	});
 
+	/*ecologic*/
+
+	$('.tabs-ecologic li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(".tab-pane-ecologic").hide();
+		var selectTab3 = $(this).attr("href");
+		$(selectTab3).fadeIn(100);
+	});
+
+	$('.tabs-info li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(".tab-pane-info").hide();
+		var selectTab3 = $(this).attr("href");
+		$(selectTab3).fadeIn(100);
+	});
+
+	{
+    if ($(window).width() < 992) { 
+
+      /*scroll to tabs*/
+
+      $('.tabs-ecologic a, .tabs-info a').on( 'click', function(){ 
+        var el3 = $(this);
+        var dest3 = el3.attr('href'); 
+        if(dest3 !== undefined && dest3 !== '') { 
+          $('html').animate({ 
+            scrollTop: $(dest3).offset().top - 80
+        }, 500 // скорость прокрутки
+        );
+        }
+        return false;
+      });
+
+
+    }
+  }
+
+
  {
     if ($(window).width() < 992) { 
 
