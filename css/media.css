@@ -794,6 +794,51 @@
 .billbord-ecologic .descr-big {
     max-width: 100%;
 }
+/*menu ecologic*/
+/*menu ecologic*/
+/*menu ecologic*/
+.tabs-ecologic {
+  position: relative;
+  left: 0;
+}
+.tabs-ecologic li {
+  position: relative;
+}
+.tabs-ecologic__content li {
+  width: 100% !important;
+}
+.tabs-ecologic__content {
+  position: absolute;
+  z-index: 5;
+  background-color: #fff;
+}
+.tabs-ecologic__content li a {
+  display: block;
+  padding: 0 !important;
+}
+/*new 2 pages*/
+/*new 2 pages*/
+/*new 2 pages*/
+.item-complex_1 {
+    top: 78px;
+    left: 216px;
+}
+.item-complex_2 {
+    top: 83px;
+    right: 224px;
+}
+.item-complex_3 {
+    top: 59px;
+    right: 130px;
+}
+.item-complex_4 {
+    bottom: 102px;
+    left: 72px;
+}
+.item-complex_5 {
+    bottom: 140px;
+    right: 65px;
+}
 }
 
 
@@ -1385,6 +1430,67 @@ body {
 }
 .ecologic-info {
     padding: 35px 0;
+}
+/*new 2 pages*/
+/*new 2 pages*/
+/*new 2 pages*/
+.complex .tabs li {
+    margin-right: 7px;
+}
+.complex .tabs li a {
+    padding: 0 15px;
+    }
+    .complex-block {
+      width: 450px;
+      margin-top: 20px;
+    }
+    .item-complex_1 {
+    top: 51px;
+    left: 138px;
+}
+.item-complex_2 {
+    top: 54px;
+    right: 143px;
+}
+.item-complex_3 {
+    top: 22px;
+    right: 68px;
+}
+.item-complex_4 {
+    bottom: 56px;
+    left: 39px;
+}
+.item-complex_5 {
+    bottom: 88px;
+    right: 33px;
+}
+.complex-info ul {
+  columns: initial;
+}
+.complex-info li {
+  margin-bottom: 15px;
+}
+.item-text {
+  padding: 30px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.complex .tab-container {
+  padding-top: 25px;
+}
+.item-complex__content {
+  width: 280px;
+  font-size: 13px;
+  padding: 20px 15px;
+  line-height: 20px;
+  padding-bottom: 45px;
+}
+.item-complex_1 .item-complex__content {
+  margin-right: -148px;
+}
+.item-complex_4 .item-complex__content {
+  left: 100%;
+  margin-left: -45px;
 }
 }
 
@@ -1979,6 +2085,68 @@ body {
 }
 .tab-container-info .table-price table td:nth-child(2) {
     width: 90px;
+}
+/*new 2 pages*/
+/*new 2 pages*/
+/*new 2 pages*/
+.complex-block {
+  width: 290px;
+}
+.item-complex__icon {
+  height: 20px;
+  width: 20px;
+  font-size: 14px;
+}
+.item-complex_1 {
+    top: 31px;
+    left: 89px;
+}
+.item-complex_2 {
+    top: 36px;
+    right: 95px;
+}
+.item-complex_3 {
+    top: 21px;
+    right: 44px;
+}
+.item-complex_4 {
+    bottom: 36px;
+    left: 26px;
+}
+.item-complex_5 {
+    bottom: 58px;
+    right: 24px;
+}
+.descr-title {
+  font-size: 12px;
+  line-height: 19px;
+}
+.complex-advantages .title-section {
+  padding-bottom: 25px;
+}
+.complex-info {
+  padding: 25px 15px;
+  line-height: 21px;
+}
+.item-text {
+    padding: 20px;
+    font-size: 14px;
+    line-height: 21px;
+}
+.row_text > div {
+  margin-top: 15px;
+}
+.complex-bottom {
+  padding-bottom: 15px;
+}
+.item-complex_1 .item-complex__content {
+    margin-right: -183px;
+}
+.item-complex__content  {
+  padding-bottom: 25px;
+}
+.item-complex_4 .item-complex__content {
+  margin-left: -25px;
 }
 }
 

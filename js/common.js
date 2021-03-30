@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+/*new 2 pages*/
+/*new 2 pages*/
+/*new 2 pages*/
+
 
 /*animate*/
 	new WOW().init();
@@ -82,10 +86,21 @@ $(".item-vacancy__head").click(function() {
 		
 	});
 
-$(".item-question__head").click(function() {
-		$(this).parent().toggleClass("active");
-		$(this).siblings(".item-question__content").slideToggle(200);
-		
+
+
+$(".item-question__head").click(function(e) {
+		e.preventDefault();
+		$(".item-question").removeClass("active");
+		$(".item-question__content").slideUp(200);
+		if ($(this).siblings(".item-question__content").is(":hidden")) {
+			$(this).parent().addClass("active");
+			$(this).siblings(".item-question__content").slideDown(200);
+
+		} else {
+			$(this).parent().removeClass("active");
+			$(this).siblings(".item-question__content").slideUp(200);
+
+		}
 	});
 
 
@@ -159,6 +174,22 @@ $(".item-question__head").click(function() {
 
 	/*ecologic*/
 
+/*menu ecologic*/
+/*menu ecologic*/
+$('.tabs-ecologic li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().siblings("li").find(".tabs-ecologic__content").slideUp(200);
+		$('.tabs-ecologic li').removeClass("active");
+	
+		if ($(this).siblings(".tabs-ecologic__content").is(":hidden")) {
+			$(this).siblings(".tabs-ecologic__content").slideDown(200);
+		$(this).parent().addClass("active");
+		} else {
+				$(this).siblings(".tabs-ecologic__content").slideUp(200);
+		$(this).parent().removeClass("active");
+		}
+	});
+/*
 	$('.tabs-ecologic li a').click(function(event) {
 		event.preventDefault();
 		$(this).parent().parent().find("li").removeClass('active');
@@ -167,6 +198,8 @@ $(".item-question__head").click(function() {
 		var selectTab3 = $(this).attr("href");
 		$(selectTab3).fadeIn(100);
 	});
+
+	*/
 
 	$('.tabs-info li a').click(function(event) {
 		event.preventDefault();
@@ -182,7 +215,7 @@ $(".item-question__head").click(function() {
 
       /*scroll to tabs*/
 
-      $('.tabs-ecologic a, .tabs-info a').on( 'click', function(){ 
+      $('.tabs-info a').on( 'click', function(){ 
         var el3 = $(this);
         var dest3 = el3.attr('href'); 
         if(dest3 !== undefined && dest3 !== '') { 
