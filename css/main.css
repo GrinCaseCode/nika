@@ -21,7 +21,7 @@ body textarea:focus:required:invalid {
 }
 body input:required:valid,
 body textarea:required:valid {
-	
+	 
 }
 body {
 	font-family: "Montserrat";
@@ -3847,4 +3847,217 @@ select {
 }
 .complex-bottom {
 	padding-bottom: 35px;
+}
+/*examination*/
+/*examination*/
+/*examination*/
+.examination .tabs li a {
+	padding: 0 26px;
+	height: 60px;
+	border-radius: 6px;
+	width: auto;
+	text-transform: none;
+}
+.examination .tabs li a::after {
+	bottom: 0;
+	border-radius: 6px;
+}
+.examination .tabs li {
+	margin-right: 16px;
+}
+.examination .tab-container {
+	padding: 0;
+	padding-top: 35px;
+	border: none;
+	box-shadow: none;
+}
+.examination__image {
+	margin-bottom: -70px;
+}
+.examination__image img {
+	max-width: 100%;
+	height: auto;
+}
+.examination {
+	padding-top: 45px;
+		font-family: 'Geometria';
+}
+.examination p {
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.examination .title-section {
+	padding-bottom: 25px;
+}
+.title-page {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: #1c4b6e;
+}
+.professions {
+	padding-bottom: 45px;
+		font-family: 'Geometria';
+	background-color: #f3f4f5;
+}
+.professions .title-page {
+	padding-top: 35px;
+}
+.item-profession {
+	max-width: 225px;
+	line-height: 24px;
+	color: #333;
+	font-weight: 500;
+	margin: 0 auto;
+	margin-top: 38px;
+}
+.item-profession__image {
+	width: 195px;
+	height: 184px;
+	max-width: 100%;
+	border-radius: 18px;
+	margin-bottom: 20px;
+}
+.item-profession__image img {
+	height: 100%;
+	width: 100%;
+	border-radius: 18px;
+	object-fit: cover;
+	font-family: 'object-fit: cover;';
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.examination-destiny {
+	padding-top: 40px;
+	padding-bottom: 95px;
+	font-family: 'Geometria';
+	background-color: #dbe2eb;
+}
+.destiny-block {
+	padding: 28px;
+	margin-top: 18px;
+	line-height: 24px;
+	background-color: #fff;
+	border-radius: 16px;
+	font-weight: 500;
+}
+.destiny-info {
+	padding: 24px;
+	padding-top: 100px;
+	width: 100%;
+	max-width: 390px;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;
+	color: #fff;
+	background-color: #617385;
+	border-radius: 16px;
+	min-height: 100%;
+	z-index: 1;
+	text-align: center;
+	position: relative;
+}
+.destiny-info__icon {
+	width: 85px;
+	height: 85px;
+	color: #fff;
+	background-color: #dc2c1b;
+	border-radius: 50%;
+	font-size: 60px;
+	top: -28px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	font-family: georgia, sans-serif;
+	position: absolute;
+	font-weight: 700;
+	font-style: italic;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.destiny-right {
+	padding-top: 25px;
+	display: flex;
+	justify-content: flex-end;
+}
+.destiny-info p {
+	margin-bottom: 25px;
+}
+.destiny-image {
+    left: -101px;
+    top: -25px;
+	position: absolute;
+}
+.examination-destiny .title-section {
+	padding-bottom: 10px;
+}
+.about-examination {
+		padding-top: 38px;
+	padding-bottom: 50px;
+	font-family: 'Geometria';
+}
+.sertificat-examination img {
+	max-width: 100%;
+	height: auto;
+}
+.sertificat-examination {
+	width: 535px;
+	max-width: 100%;
+	margin: 0 auto;
+	left: 15px;
+	position: relative;
+}
+.sertificat-examination__text {
+	font-size: 18px;
+	line-height: 26px;
+	padding: 24px;
+	width: 315px;
+	height: 315px;
+	color: #fff;
+	text-align: center;
+	border-radius: 50%;
+	font-weight: 500;
+	margin: 0 auto;
+	margin-top: -200px;
+	display: flex;
+	position: relative;
+	z-index: 2;
+	align-items: center;
+	justify-content: center;
+	background-color: #617385;
+}
+.item-text_simple {
+	min-height: auto;
+	margin-bottom: 20px;
+	background-color: #f4f6f9;
+}
+.about-examination .descr-title {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 15px;
+}
+.about-examination ul {
+	padding: 0;
+	margin: 0;
+	font-weight: 500;
+	line-height: 24px;
+	list-style-type: none;
+}
+.about-examination ul li {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 7px;
+	padding-left: 20px;
+	list-style-type: none;
+	position: relative;
+}
+.about-examination ul li::before {
+	position: absolute;
+	top: 2px;
+	left: 0;
+	content: "•";
 }
