@@ -1,5 +1,32 @@
 $(document).ready(function() {
 
+	/*new js*/
+	$('.slider-gallery').slick({
+		arrows: true,
+		dots: false,
+		infinite: true,
+		slidesToShow:3,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		slidesToScroll: 1,
+		responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow:2,
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow:2,
+				arrows: false,
+				dots: true,
+			}
+		}
+		]
+	});
+
 /*new 2 pages*/
 /*new 2 pages*/
 /*new 2 pages*/
